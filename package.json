@@ -1,0 +1,36 @@
+{
+  "name": "use-memoized-fn",
+  "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com",
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterczg/use-memoized-fn.git"
+  },
+  "keywords": ["ahooks", "react", "useMemoizedFn", "memoization"],
+  "author": "peterczg",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "README.zh-CN.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/peterczg/use-memoized-fn/issues"
+  },
+  "homepage": "https://github.com/peterczg/use-memoized-fn#readme",
+  "description": "A fork of useMemoizedFn in ahooks",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}
